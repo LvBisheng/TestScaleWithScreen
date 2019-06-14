@@ -1,5 +1,3 @@
-# TestScaleWithScreen
-以某个屏幕（例如iphone 7的屏幕）为准，对UIView或其子类对象在其他屏幕显示时进行等比例缩放
 
 ## 前言
   
@@ -248,7 +246,10 @@ typedef NS_ENUM(NSInteger, BSAdaptScreenWidthType) {
     [self.view adaptScreenWidthWithType:BSAdaptScreenWidthTypeAll exceptViews:nil];
 }
 ```
+另外我写了个小小的demo: https://github.com/LvBisheng/TestScaleWithScreen。 我只是提供了一个思路，大家可以根据需要自行对分类进行更改。
+
+PS: 由于现在笔者用的是Swift开发，写了个Swift Demo，并支持cocopod导入（[https://github.com/LvBisheng/BSAdaptScreen-swift](https://github.com/LvBisheng/BSAdaptScreen-swift)
+）。
 
 ##总结
-
 &emsp; &emsp;这个问题其实之前困扰我蛮久的，每次想解决，可搜了下网上相关的资料和讨论很少。有时觉得是不是这个等比例换算的需求，本身就需要再斟酌斟酌?还是说大家都有更好更方便的解决方案了......
