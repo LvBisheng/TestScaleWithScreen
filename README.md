@@ -1,4 +1,4 @@
-
+简书文章：(https://www.jianshu.com/p/cf049bebdc6c)[https://www.jianshu.com/p/cf049bebdc6c]
 ## 前言
   
 &emsp; &emsp;在此我不是和大家讨论，xib相对约束的使用，因为这些文章网上有一大堆的资料，这也不是我今天想要讲的东西。 
